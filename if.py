@@ -2,13 +2,14 @@ print('Введите ваш возраст:')
 age=input()
 
 def choose_your_activity():
-    if int(age)<=5:
+    your_age = int(age)
+    if your_age<=5:
         go_to='в детский сад'
-    elif int(age)<=16:
+    elif your_age<=16:
         go_to='в школу'
-    elif int(age)<=21:
+    elif your_age<=21:
         go_to='в ВУЗ'
-    elif int(age)<=59:
+    elif your_age<=59:
         go_to='работать в поте лица'
     else:
         go_to='думать о вечном'
